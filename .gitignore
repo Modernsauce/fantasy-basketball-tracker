@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local draft databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Keep the data folders, but do not commit imported/generated data yet
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
